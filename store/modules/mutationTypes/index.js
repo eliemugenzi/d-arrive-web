@@ -1,0 +1,26 @@
+// Login mutation types
+export const LOGIN_START = "LOGIN_START";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+
+// Sig up mutation types
+export const SIGNUP_START = "SIGNUP_START";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAIL = "SIGNUP_FAIL";
+
+// Current user mutation types
+export const GET_CURRENT_USER_START = "GET_CURRENT_USER_START";
+export const GET_CURRENT_USER_SUCCESS = "GET_CURRENT_USER_SUCCESS";
+export const GET_CURRENT_USER_FAIL = "GET_CURRENT_USER_FAIL";
+
+export const GET_USERS_START = "GET_USERS_START";
+export const GET_USERS_SUCCESS = "GET_USERS_SUCCESS";
+export const GET_USERS_FAIL = "GET_USERS_FAIL";
+
+export const GET_AGENCIES_START = "GET_AGENCIES_START";
+export const GET_AGENCIES_SUCCESS = "GET_AGENCIES_SUCCESS";
+export const GET_AGENCIES_FAIL = "GET_AGENCIES_FAIL";
+
+export const GET_LOCATIONS_START = "GET_LOCATIONS_START";
+export const GET_LOCATIONS_SUCCESS = "GET_LOCATIONS_SUCCESS";
+export const GET_LOCATIONS_FAIL = "GET_LOCATIONS_FAIL";
